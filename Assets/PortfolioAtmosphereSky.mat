@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Red_Base
-  m_Shader: {fileID: 4800000, guid: 3c9b61e23c11d684a8bdfe07dff38fdf, type: 3}
+  m_Name: PortfolioAtmosphereSky
+  m_Shader: {fileID: 4800000, guid: b58f7d0d50304dd7ad1729bf0df7c19a, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -22,23 +22,20 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _NoiseTex:
-        m_Texture: {fileID: 11700000, guid: f246f2ebfda298e4cb61c55495b4f4e2, type: 2}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _Density: 0.8
-    - _Extinction: 1
-    - _NoiseMultiplier: 4
-    - _NoiseScale: 0.08
-    - _NoiseThreshold: 0.5
-    - _WindSpeed: 0.5
+    - _GradientPower: 1.15
+    - _HazeStrength: 0.14
+    - _SunHaloFalloff: 18
+    - _SunHaloIntensity: 0.32
+    - _SunSize: 0.0012
     m_Colors:
-    - _BoundsMax: {r: 10, g: 10, b: 10, a: 0}
-    - _BoundsMin: {r: -10, g: 0, b: -10, a: 0}
-    - _CloudColor: {r: 1, g: 1, b: 1, a: 1}
-    - _WindDirection: {r: 1, g: 0, b: 0.2, a: 0}
+    - _HazeColor: {r: 0.85, g: 0.45, b: 0.24, a: 1}
+    - _HorizonColor: {r: 0.65, g: 0.56, b: 0.48, a: 1}
+    - _LowerColor: {r: 0.18, g: 0.27, b: 0.39, a: 1}
+    - _SunColor: {r: 3.2, g: 1.7, b: 0.8, a: 1}
+    - _SunDirection: {r: 0.31, g: 0.42, b: -0.79, a: 0}
+    - _ZenithColor: {r: 0.055, g: 0.2, b: 0.46, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

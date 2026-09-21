@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_CloudRaymarch
+  m_Shader: {fileID: 4800000, guid: ce528568df3e1334f944d6480994c924, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _USESDFSHAPE_ON
+  - _USESHAPEGUIDES_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NoiseTex:
+        m_Texture: {fileID: 11700000, guid: 19f379640744caa4bb3ae7048b7ea0c2, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddShapeType0: 0
+    - _AddShapeType1: 0
+    - _AddShapeType2: 0
+    - _AddShapeType3: 0
+    - _AmbientHeightContrast: 0.48
+    - _AmbientStrength: 0.32
+    - _BackwardScattering: 0.18
+    - _BillowDensityVariation: 0.1
+    - _BillowScale: 0.104
+    - _BillowStrength: 0.85
+    - _BottomFade: 2.5
+    - _BottomWarpMultiplier: 0.42
+    - _CapsuleRadius: 0.3
+    - _CloudDistanceScale: 1
+    - _CoverageCarveStrength: 0.68
+    - _CoverageContrast: 1.25
+    - _CoverageInteriorBias: 0.015
+    - _CoverageInteriorBoost: 0.368
+    - _CoverageScale: 0.04
+    - _CoverageSoftness: 0.115
+    - _CoverageStrength: 0.92
+    - _CoverageThreshold: 0.58
+    - _CoverageWarpScale: 0.65
+    - _CoverageWarpStrength: 1.35
+    - _DeepColorStrength: 1.35
+    - _Density: 1.08
+    - _DensityContrast: 1.35
+    - _DensityCutoff: 0.065
+    - _DetailStepScale: 0.52
+    - _EdgeWispReach: 0.75
+    - _EdgeWispSoftness: 0.12
+    - _EdgeWispStrength: 0.42
+    - _EdgeWispThreshold: 0.56
+    - _Extinction: 1.1
+    - _ForwardScattering: 0.62
+    - _HorizontalFade: 4
+    - _InteriorDensityRamp: 0.72
+    - _LengthTaper: 0.06
+    - _LightColorPower: 1.1
+    - _LightStepLength: 0.62
+    - _NoiseReferenceSize: 6.7
+    - _OpacityPower: 1.1
+    - _PhaseBlend: 0.82
+    - _PhaseStrength: 0.34
+    - _PowderStrength: 0.62
+    - _RayJitter: 0.28
+    - _RayStepSize: 0.085
+    - _RoundedBoxRadius: 0.18
+    - _SecondaryBillowScale: 0.25
+    - _SecondaryBillowStrength: 0.42
+    - _ShapeBlend: 0.241
+    - _ShapeDetailStrength: 0.98
+    - _ShapeInset: 0.13
+    - _ShapeSoftness: 0.22
+    - _ShapeWarpScale: 0.03
+    - _ShapeWarpStrength: 0.8
+    - _SubtractBlend: 0.216
+    - _SubtractExpansion: 0
+    - _SunStrength: 1.4
+    - _SurfaceErosionDepth: 0.65
+    - _SurfaceErosionScale: 0.56
+    - _SurfaceErosionStrength: 0.085
+    - _TopFadeStart: 3
+    - _UseSdfShape: 1
+    - _UseShapeGuides: 1
+    - _WindSpeed: 0.12
+    m_Colors:
+    - _AmbientColor: {r: 0.42, g: 0.5, b: 0.65, a: 1}
+    - _BoundsMax: {r: 25.270634, g: 52.088554, b: 1.7828321, a: 0}
+    - _BoundsMin: {r: -1.950634, g: 35.491447, b: -20.14283, a: 0}
+    - _CloudColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DeepCloudColor: {r: 0.09, g: 0.14, b: 0.27, a: 1}
+    - _LightCloudColor: {r: 1.12, g: 1.01, b: 0.84, a: 1}
+    - _NoiseOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _ShadowCloudColor: {r: 0.27, g: 0.38, b: 0.59, a: 1}
+    - _WindDirection: {r: 0.999363, g: 0, b: 0.0356915, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
